@@ -1,0 +1,58 @@
+
+  .box {
+    width: 404px;
+    height: 104px;
+    border: 1px solid #d6d6d6;
+    border-radius: 2px;
+    background: #fff;
+    float: left;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px 1px #ebebeb;
+  }
+  .box:hover{
+    border-color: #3399ff;
+  }
+  .box1 {
+    width: 85px;
+    height: 100%;
+    background-image: url(../../image/image.jpg);
+    background-size: 56px ;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    background-position-y: 24px;
+    float: left;
+  }
+  .box2{
+    width: 258px;
+    height: 100%;
+    padding-top: 15px;
+    float: left;
+  }
+  .box2 p{
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  .box2p{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .box3{
+    height: 100%;
+    float: right;
+    overflow: hidden;
+    position: relative;
+  }
+  .box3p{
+    margin: 18px 12px 0 2px;
+    font-size: 12px;
+    display: block;
+  }
+  .icons-list {
+    display: block;
+    /* margin: 44px 12px 0px 0px; */
+    position: absolute;
+    right: 12px;
+    bottom: 14px;
+  }
+
